@@ -18,7 +18,9 @@ venv/
 # Data/artifacts
 data/
 experiments/
-figures/
+figures/*
+!figures/confusion.png
+!figures/misclassified.png
 partitions/*.npy
 
 # PyTorch checkpoints
